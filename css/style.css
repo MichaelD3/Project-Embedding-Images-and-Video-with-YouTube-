@@ -1,0 +1,469 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: #f2f2f2;
+	color: #cccccc;
+	font-family: Roboto,arial,sans-serif;
+}
+
+/*=====Navbar=====*/
+
+header {
+	background-color: #fff;
+	height: 70px;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 24px;
+}
+
+button {
+	background: transparent;
+	border: none;
+	margin: none;
+}
+
+#dropdown button {
+	float: left;
+	width: 5%;
+	padding: 20px;
+}
+
+#logo {
+	padding: 10px 10px;
+}
+
+#logo img {
+	height: 48px;
+	width: 77px;
+	float: left;
+
+}
+
+#search-bar {
+	float: left;
+	padding: 0 0 0 50px;
+	margin: 0;
+	box-shadow: 0;
+}
+
+form input {
+	width: 500px;
+	height: 31px;
+	color: #cccccc;
+}
+
+#search-btn {
+	border: 1px solid;
+	color: #cccccc;
+	margin: 0;
+	float: right;
+	padding: 2.5px 20px;
+	border-radius: 2px;
+}
+
+/*=====Nav-buttons Right side=====*/
+
+#nav-buttons {
+	float: right;
+}
+
+#upload {
+	background-color: #f8f8f8;
+	color: #737373;
+	border: 1px solid;
+	padding: 3px 9px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#signin {
+	background-color: #2e8ae6;
+	color: #fff;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 30px 0 15px;
+}
+
+/*=====Main content=====*/
+
+#main-wrapper {
+	width: 100%;
+}
+
+#video {
+	float: left;
+	margin: 10px 10px 10px 320px;
+	overflow: none;
+}
+
+#video-title {
+	float: left;
+	margin: 10px 10px 10px 320px;
+	padding: 0;
+	color: #474747;
+	background-color: #fff;
+	width: 853px;
+}
+
+#video-title h3 {
+	padding-left: 10px;
+}
+
+#user-info img {
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+#user-info a {
+	float: left;
+	text-decoration: none;
+	color: #333;
+}
+
+.subscribe button {
+	border-radius: 2px;
+	background-color: #cc181e;
+	color: #fff;
+	padding: 4px;
+	margin: 0;
+}
+
+#subs {
+	border: 1px solid #b8b8b8;
+	padding: 4px;
+	border-radius: 2px;
+	margin: 0;
+}
+
+#views {
+	padding: 0;
+	float: right;
+	margin: 0 20px;
+	font-size: 18px;
+}
+
+#hr-left {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #b8b8b8;
+    width: 78%;
+    float: left;
+    clear: both;
+    margin-left: 2%;
+}
+
+#hr-right {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid blue;
+    width: 18%;
+    float: right;
+    clear: all;
+    margin-right: 2%;
+}
+
+/*=====User options in video title box=====*/
+
+#user-options {
+	color: #878787;
+	width: 100%;
+}
+
+#option-tags {
+	padding: 5px 20px 5px 20px;
+	width: 50%;
+	float: left;
+}
+
+#votes-right {
+	padding: 5px 20px 5px 20px;
+	float: right;
+	width: 50%;
+}
+
+#votes-right .fa-thumbs-up {
+	float: right;
+	padding: 0 10px;
+}
+
+#votes-right .fa-thumbs-down {
+	float: right;
+	padding: 0 10px;
+}
+
+/*=====About video box=====*/
+
+#about-video {
+	float: left;
+	margin: 10px 10px 10px 320px;
+	padding: 0;
+	color: #474747;
+	background-color: #fff;
+	width: 853px;
+	font-size: 14px;
+}
+
+#video-details {
+	padding: 0 10px;
+}
+
+#about-hr {
+	padding: 0 20px;
+	width: 94%;
+	border-top: 1px solid #9c9c9c;
+	height: 1px;
+}
+
+#show-more {
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+}
+
+/*=====Video comments section=====*/
+
+#video-comments {
+	float: left;
+	margin: 10px 10px 10px 320px;
+	padding: 0 10px;
+	color: #474747;
+	background-color: #fff;
+	width: 853px;
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+.comments-input input {
+	width: 830px;
+	height: 40px;
+}
+
+#comments-btn {
+	border: 1px solid #9c9c9c;
+	border-radius: 2px;
+	padding: 5px 8px;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+
+.user-comment {
+	margin-top: 10px;
+}
+
+.user-image {
+	float: left;
+	display: block;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.user-input p {
+	margin: 5px 0 0 60px;
+}
+
+.comment-content a {
+	text-decoration: none;
+}
+
+.comment-interact {
+	margin: 5px 0 30px 60px;
+	color: #9c9c9c;
+}
+
+#more-comments {
+	background-color: #f2f2f2;
+	margin: 50px;
+	width: 753px;
+	border: 1px solid #9c9c9c;
+	height: 40px;
+	border-radius: 2px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#more-comments a {
+	text-decoration: none;
+	color: #787878;
+}
+
+/*=====Aside=====*/
+
+#aside-container {
+	float: right;
+	background-color: #fff;
+	width: 20%;
+	margin: 10px 320px 0 10px;
+	clear: all;
+}
+
+#aside-header {
+	color: #000;
+}
+
+#aside-span {
+	float: left;
+	margin: 10px;
+}
+
+#aside-span2 {
+	float: right;
+	margin:  10px;
+}
+
+.fa-info-circle {
+	float: right;
+	margin: 10px;
+}
+
+/*=====Next-video=====*/
+
+#up-next {
+	display: inline-block;
+}
+
+#next-preview {
+	margin: 10px;
+	float: left;
+}
+
+#next-info {
+	color: #474747;
+	padding: 0;
+	margin: 0;
+}
+
+#next-info h5 {
+	margin: 8px 0 8px 0;
+}
+
+#next-info p {
+	font-size: 12px;
+	margin: 2px;
+	padding-top: 3px;
+}
+
+/*=====Suggested videos=====*/
+
+.similar-videos {
+	display: inline-block;
+}
+
+.preview {
+	margin: 10px;
+	float: left;
+}
+
+.preview-info {
+	color: #474747;
+	padding: 0;
+	margin: 0;
+}
+
+.preview-info h5 {
+	margin: 8px 0 8px 0;
+}
+
+.preview-info p {
+	font-size: 12px;
+	margin: 2px;
+	padding-top: 3px;
+}
+
+#show-more-similar {
+	color: #474747;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+#show-more-similar p {
+	margin: 2px;
+}
+
+/*=====Footer=====*/
+
+footer {
+	width: 100%;
+	bottom: 0px;
+	position: relative;
+	background-color: #f2f2f2;
+	clear: both;
+	margin-top: -50px;
+	height: 150px;
+}
+
+#options-wrapper {
+	display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#footer-logo {
+	height: 68px;
+	width: 97px;
+	float: left;
+	margin-left: 25px;
+}
+
+.footer-buttons {
+	display: inline-block;
+	color: #474747;
+	padding: 0 10px;
+}
+
+.footer-buttons button {
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	padding: 6px 8px;
+	font-size: 12px;
+}
+
+/*=====Footer 2nd row=====*/
+
+#footer-about {
+	float: left;
+}
+
+#about-items li {
+	display: inline-block;
+	padding: 0 10px 0 0;
+
+}
+
+#about-items li a {
+	text-decoration: none;
+	color: #474747;
+	font-size: 14px;
+}
+
+/*=====Footer 3rd row =====*/
+
+#footer-legal {
+	float: left;
+	clear: both;
+}
+
+#legal-items {
+	padding: 0 10px 10px 30px;
+}
+
+#legal-items li {
+	margin: 5px 10px 5px 10px;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	color: #474747;
+	font-size: 13px;
+}
